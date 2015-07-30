@@ -29,3 +29,6 @@ node_modules
 .bowercomponents
 node
 target
+
+# Remove all IntelliJ Idea settings and other stuff
+.idea/
