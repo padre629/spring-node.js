@@ -32,3 +32,5 @@ target
 
 # Remove all IntelliJ Idea settings and other stuff
 .idea/
+*.iml
+lib/*jar
