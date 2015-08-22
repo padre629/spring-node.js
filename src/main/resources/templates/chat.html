@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Real time web chat</title>
+    <script type="text/javascript" th:src="@{/app.js}"></script>
+    <script src="../static/socket.io.js"></script>
+</head>
+<body>
+<div id="content" style="width: 500px; height: 300px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;"></div>
+<div class="controls">
+    <input id="name" style="width:350px;" placeholder="Nombre de usuario"/>
+    <input id="field" style="width:350px;" placeholder="Mensaje"/>
+    <input id="send" type="button" value="Enviar"/>
+</div>
+</body>
+</html>
